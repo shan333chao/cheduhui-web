@@ -3,10 +3,8 @@ package com.cheduhui.config;
 import com.blade.Blade;
 import com.blade.event.BeanProcessor;
 import com.blade.ioc.annotation.Bean;
+import com.blade.mvc.view.template.JetbrickTemplateEngine;
 
-/**
- * Created by HenDiao on 2018/3/4.
- */
 @Bean
 public class TemplateConfig implements BeanProcessor {
 

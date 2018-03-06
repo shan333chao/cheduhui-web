@@ -2,9 +2,21 @@ package com.cheduhui.controller;
 
 import com.blade.mvc.annotation.GetRoute;
 import com.blade.mvc.annotation.Path;
+import com.blade.mvc.http.Request;
+import com.blade.mvc.http.Response;
 
 @Path
 public class IndexController {
+
+    @GetRoute("/test")
+    public void test(Request req, Response res){
+
+        res.text("testComplate");
+
+
+
+    }
+
     @GetRoute("/")
     public String home(){
         return "index.html";
@@ -75,6 +87,10 @@ public class IndexController {
     @GetRoute("/404-light")
     public String notFoundlight(){
         return "404-light.html";
+    }
+    @GetRoute("/error-500")
+    public String error500(){
+        return "404-dark.html";
     }
 
 }

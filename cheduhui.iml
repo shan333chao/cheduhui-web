@@ -22,9 +22,11 @@
     <orderEntry type="library" name="Maven: io.netty:netty-common:4.1.18.Final" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-transport:4.1.18.Final" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-resolver:4.1.18.Final" level="project" />
-    <orderEntry type="library" name="Maven: com.ibeetl:beetl:2.7.27" level="project" />
-    <orderEntry type="library" name="Maven: org.antlr:antlr4-runtime:4.2" level="project" />
+    <orderEntry type="library" name="Maven: com.bladejava:blade-template-jetbrick:0.1.2" level="project" />
+    <orderEntry type="library" name="Maven: com.github.subchen:jetbrick-template:2.1.5" level="project" />
+    <orderEntry type="library" name="Maven: com.github.subchen:jetbrick-commons:2.1.4" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:antlr4-runtime:4.3" level="project" />
     <orderEntry type="library" name="Maven: org.abego.treelayout:org.abego.treelayout.core:1.0.1" level="project" />
-    <orderEntry type="library" name="Maven: org.antlr:antlr4-annotations:4.2" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:antlr4-annotations:4.3" level="project" />
   </component>
 </module>
